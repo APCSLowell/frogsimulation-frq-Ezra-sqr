@@ -17,7 +17,7 @@ public class FrogSimulation
 	{ 
 	int myDist=0;
 		int myHops=0;
-		while (myDist>=0; && myDist<goalDistance && myhops<maxHops){
+		while (myDist>=0 && myDist<goalDistance && myhops<maxHops){
 			myDist+=hopDistance();
 			myHops++;
 		}
